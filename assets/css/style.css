@@ -1,3 +1,7 @@
+body {
+background-color: #000000;
+}
+
 .carousel-item {
     height: 80vh;
     min-height: 350px;
@@ -8,17 +12,17 @@
     background-size: cover;
   }
 
-  .navbar {
+.navbar {
     background-color: transparent!important;
   }
 
-  .card-informacion {
+.card-informacion {
       display: flex;
       justify-content: center;
       align-items: center;
   }
 
-  .redes-sociales 
+.redes-sociales 
     {
       display: flex;
       justify-content: center;
@@ -27,3 +31,50 @@
       color:#ffffff;
   }
   
+.titulo-logo {
+  color: #fff;
+  font-size: 25px;
+  padding-left: 20px;
+  text-decoration: none!important;
+}
+
+.titulo-logo:hover {
+  color: rgb(0, 0, 0);
+}
+
+.titulo-informacion {
+  padding: 70px 0 24px 0;
+    border-bottom: 1px solid #17A2B8;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenedor-color {
+  background-color: #17A2B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+
+.arriba-texto {
+  padding-top: 40px;
+}
+
+.abajo-texto {
+  padding-bottom:40px;
+}
+
+.card {
+  background-color: #17A2B8;
+  color: white;
+}
+
+.formulario-type {
+  padding-top: 40px;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
