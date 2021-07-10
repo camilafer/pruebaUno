@@ -17,3 +17,13 @@
       justify-content: center;
       align-items: center;
   }
+
+  .redes-sociales 
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #17A2B8;
+      color:#ffffff;
+  }
+  
